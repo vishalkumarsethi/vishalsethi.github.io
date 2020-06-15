@@ -13,7 +13,7 @@
     .navigation-clean-button {
         padding-top: 1rem;
         padding-bottom: 1rem;
-        color: color;
+        color: color:;
     }
 }
 
@@ -430,22 +430,4 @@ a:hover {
             }
         }
     }
-}
-
-div.col-6.col-lg-6.col-md-6.col-sm-6 {
-    display: inline-flex;
-    padding: 20px;
-    text-align: left;
-}
-
-#factsparagraph {
-}
-
-.factsmargin {
-    margin-left: 15px;
-}
-
-#sources {
-    margin: 1em;
-    text-align: center;
 }

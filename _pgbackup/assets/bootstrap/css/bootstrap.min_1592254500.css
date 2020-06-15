@@ -96,10 +96,8 @@ h6 {
 }
 
 p {
+    margin-top: 0;
     margin-bottom: 1rem;
-    margin-top: 1rem;
-    display: inline-flex;
-    text-align: left;
 }
 
 abbr[data-original-title],
@@ -1043,7 +1041,7 @@ pre code {
     .col-sm-auto {
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
-        width: 100%;
+        width: auto;
         max-width: 100%;
     }
 
@@ -1292,7 +1290,7 @@ pre code {
     .col-md-auto {
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
-        width: 100%;
+        width: auto;
         max-width: 100%;
     }
 
@@ -1541,7 +1539,7 @@ pre code {
     .col-lg-auto {
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
-        width: 100%;
+        width: auto;
         max-width: 100%;
     }
 
@@ -1564,9 +1562,9 @@ pre code {
     }
 
     .col-lg-4 {
-        -ms-flex: 50%;
+        -ms-flex: 0 0 33.33333%;
         flex: 0 0 33.33333%;
-        max-width: 50%;
+        max-width: 33.33333%;
     }
 
     .col-lg-5 {
@@ -1790,7 +1788,7 @@ pre code {
     .col-xl-auto {
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
-        width: 100%;
+        width: auto;
         max-width: 100%;
     }
 
@@ -11929,12 +11927,12 @@ html {
 
 .clean-card h4 {
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .clean-card p {
     opacity: .8;
-    font-size: 1em;
+    font-size: .85em;
     margin-bottom: .9em;
 }
 
